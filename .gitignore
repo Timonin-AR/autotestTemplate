@@ -19,3 +19,22 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+
+# Gradle
+.gradle/
+build/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+# Ignore Gradle build output directory
+build
